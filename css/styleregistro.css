@@ -3,34 +3,24 @@ url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=
 *{
     font-family: 'Roboto Condensed';
   }
-  :root{
-    --secundary:#b3b3b3;
-    --aurora:#dde9ff;
-  }
-html, body {
+  html, body {
     margin: 0%;
     height: 100%;
     background-color:#fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 main{
-    position: absolute;
-    min-width:100%;
-    min-height: 50vh;
+    
+    min-width: 350px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    z-index: 1;
 }
 main > div > img {
     height:70%;
 }
 main > div {
-    position: absolute;
-    z-index: 2;
     background-color: var(--aurora);
     overflow: hidden;
     height: 80vh;
@@ -42,7 +32,8 @@ main > div {
 form{
     display: flex;
     align-items: center;
-    /*background-color: #afd3f9;*/
+    background-color: #dde9ff
+    ;
     width: 60%;
     height: 70%;
     font-size: 15px;
@@ -150,41 +141,4 @@ form{
 #checkbox:hover {
     width: 15px;
     height: 15px
-}
-#ondas{
-    position:absolute;
-    z-index: -1;
-    width: 100%;
-}
-@media (max-width:500px){
-    html, body {
-        margin: 0%;
-        height: 100%;
-    }
-    ul>li>img{
-        width: 0%;
-        height: 0%;
-    }
-    ul{
-        display:grid
-    }
-    *{
-        font-size: 15px;
-    }
-    li> label {
-        margin-right: 0%;
-    }
-    #password{
-        margin-left:0px;
-    }
-    form{
-        height: 300px;
-    }
-}
-@media(max-width:600px){
-
-    #password{
-        margin-left:10%;
-    }
-
 }

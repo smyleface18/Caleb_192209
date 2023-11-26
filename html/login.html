@@ -9,23 +9,27 @@
 </head>
 <body>
     <main>
-        <form>
-            <div class="container_for">
-                <div id="container_img_perfil">
-                    <img  id="img_perfil" src="https://static.vecteezy.com/system/resources/previews/026/583/492/non_2x/funny-cartoon-owl-illustration-vector.jpg" alt="imagen de perfil" height="150px">
+        <div>
+            <img id="ondas" src="../img/ondas.svg">
+            <img src="../img/alien.png" alt="">
+            <form id="form">
+                <div class="container_for">
+                    <div id="container_img_perfil">
+                        <img  id="img_perfil" src="https://cdn-icons-png.flaticon.com/512/3413/3413096.png" alt="imagen de perfil">
+                    </div>
+                    <div class="my_form_input">
+                        <label for="usuario">Nombre de Usuario </label>
+                        <input type="text" name="usuario" id="usuario">
+                    </div>
+                    <div class="my_form_input">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña" >
+                    </div class="my_form_input">
+                    <div id="container_submit">
+                        <input type="submit" id="submit" onclick="loguear()" value="INICIAR SESION">
+                    </div>
                 </div>
-                <div class="my_form_input">
-                    <label for="usuario">Nombre de Usuario </label>
-                    <input type="text" name="usuario" id="usuario">
-                </div>
-                <div class="my_form_input">
-                    <label for="contraseña">Contraseña</label>
-                    <input type="password" name="contraseña" id="contraseña" >
-                </div class="my_form_input">
-                <div id="container_submit">
-                    <input type="submit" id="submit" onclick="loguear()" value="INICIAR SESION">
-                </div>
-            </div>
+        </div>
 </main>
 </body>
 </html>
