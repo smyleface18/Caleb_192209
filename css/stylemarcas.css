@@ -209,14 +209,9 @@ main{
 .titulo{
    position: absolute;
    z-index: -2;
-    background: #003ECF;
-    background: linear-gradient(to right, #003ECF 19%, #000000 93%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
     text-align: center;
     font-size: 60px;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
 
 }
 .container_titulo{
