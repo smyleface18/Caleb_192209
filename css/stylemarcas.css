@@ -203,13 +203,12 @@ main{
     z-index: 1;
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 .titulo{
    position: absolute;
    z-index: -2;
-
     text-align: center;
     font-size: 60px;
 
@@ -232,7 +231,12 @@ section{
 
 /*************/
 
+/*margis sections*/
 
+
+
+
+/********************7
 
 
 /*footer*/
