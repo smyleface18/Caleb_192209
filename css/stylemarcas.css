@@ -205,10 +205,17 @@ main{
     z-index: 1;
     display: grid;
     grid-template-columns: auto auto;
+    align-content: stretch;
     margin-left: 10%;
 
 }
 .titulo{
+  background: #121FCF;
+  background: linear-gradient(to right, #121FCF 0%, #170202 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
    position: absolute;
    z-index: -2;
     text-align: center;
@@ -234,12 +241,7 @@ section{
 /*************/
 
 /*margis sections*/
-#CLASICA{
-  position:absolute;
-  z-index: -1;
-  margin-top: 104.9%;
-  margin-left: 50%;
-}
+
 
 
 
