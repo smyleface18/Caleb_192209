@@ -182,7 +182,8 @@ main{
     box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.485);
 }
 .ficha_tecnica.total {
-    width: 100%;
+    width:45%;
+    margin-right: 20px;
 }
 .right_arrow{
     display: flex;
