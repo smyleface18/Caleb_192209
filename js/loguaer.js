@@ -1,22 +1,7 @@
-function loguear() {
-    
+const buttom  = document.getElementById("submit");
 
-    let user = document.getElementById("usuario").value;
-    let contraseña = document.getElementById("contraseña").value;
+console.log(buttom)
 
-
-
-    if (user == "caleb"  &&  contraseña=="12" ) {
-        window.location.assign("../html/Principal.html");
-        alert("bien");
-    }
-    else{
-        alert("Datos Incorrecto");
-    }
-    
-}
-function mensaje(){
-
-    alert("alksdjfasdf");
-
-}
+buttom.addEventListener("click",()=>{
+    window.location.assign("html/Principal.html");
+})
