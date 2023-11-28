@@ -6,7 +6,6 @@ url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=
   html, body {
     margin: 0%;
     height: 100%;
-    background-color:#fff;
 }
 main{
     
@@ -32,8 +31,6 @@ main > div {
 form{
     display: flex;
     align-items: center;
-    background-color: #dde9ff
-    ;
     width: 60%;
     height: 70%;
     font-size: 15px;
@@ -44,7 +41,11 @@ form{
     max-height: 700px;
     min-height: 500px;
     justify-content: center;
-    
+    background-color: rgba(255, 255, 255, 0.36);
+}
+main{
+    height: 100vh;
+    width: 100%;
 }
 .container_for{
     margin: 0%;
@@ -114,7 +115,7 @@ form{
 #submit:active{
 
     border: solid #161229;
-    ;
+    
 }
 #submit:hover{
  
@@ -141,4 +142,17 @@ form{
 #checkbox:hover {
     width: 15px;
     height: 15px
+}
+
+.container_fondo{
+    position: absolute;
+    z-index: -1;
+    height: 99.7vh;
+    width: 100%;
+    background-color: #161229;
+}
+#img_fondo{
+    filter: blur(15px);
+    width: 100%;
+    height: 100%;
 }
